@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Final/Css/style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container p-2">
+        <a data-bs-toggle="pill" href="/Final/Html/index.html">
+            <button class="btn btn-dark">
+                Домашняя Страница
+            </button>
+        </a>
+        <a data-bs-toggle="pill" href="/Final/Html/shopping.html">
+            <button class="btn btn-dark">
+                Начать Покупку-Продажу
+            </button>
+        </a>
+        <a data-bs-toggle="pill" href="/Final/Html/index1.html">
+            <button class="btn btn-dark">
+                Мои Компьютеры
+            </button>
+        </a>
+        <a data-bs-toggle="pill">
+            <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                Создать Компьютер
+            </button>
+        </a>
+        <a class="dropdown-toggle btn btn-dark" role="button" data-bs-toggle="dropdown">
+            <button class="btn btn-dark">
+                Account Settings
+            </button></a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/Final/Html/sign-up.html">Sign-Up</a></li>
+            <li><a class="dropdown-item" href="/Final/Html/log-in.html">Log-In</a></li>
+            <li><a class="dropdown-item" id="exitAccount">Exit Account</a></li>
+        </ul>
+    </div>
+    <div class="container p-2 d-flex">
+        <div class="container d-flex">
+            <p>Price <p><img class="img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAZlBMVEX///8AAAD6+vqsrKwcHByGhob19fV+fn4gICBtbW2BgYF7e3t4eHjGxsZWVlZiYmIYGBjX19ecnJy9vb3p6enQ0NA/Pz+jo6Pv7+9ISEiysrLd3d04ODguLi5ycnITExOPj48nJyfcVNgYAAADBUlEQVRoge2b2XqCMBCFI1jUuiAtVShY9P1fsotmhgJZIDPkwpw7Q+D3CyeTwyZE0LMq8qM/9v6y8KPLXogPT+xffYjUIz0VHuGLhag9wmsRe6THQhy8wdOfGVec5K/jOebX+Shxp+J3wmeN/P0yQ2l7kbAmuzfsYSze2OFvwNrLpjM0vTPD34EUY+MXNFas8Ao4u3ZzKVsvBSO8gCWl/NeeQ3sascEjqOqX/P8WXGz4jA92/1leOkI/nJngWm8PzAVSGeY1rrX50GZH5XD0dHB7BMtdTe88PPhJcfAcSu6GnL6Rh26UA4vGvxLDr2q7oz6hU6zuNEEYIj513TRT0kHWYwpZo6EruQX46WDomeDiT0bH+JKYuuK8pDI+2N2mjlBnjZE1lDZrjF4/drCDe9ZQ5AmdoCoeXUtuNMHEyU3uU5o7awWZ6Wa0OyqD8do6wbdwnGzMbjRZY7J/KbKGw9x1zxqmPKEVpNxmmvEjqO6XCXvnS4e/LlqDt540eG5ZwypP6GSZCQZFkFMwa4yarqJdMBwuTtD447JG4WJ31E0epR61GywUNxe4qMD41kuUaC2SS8dFEkuufb3COukcEMbXatLr0bHGJ7E7CkL22sb4xVp2N8VnOyVQsG2yBuQJ51z0EI7lq7Hv6+QCpZR92XQpzkrZZg2m+44rq/qBtWlFCRcJmKlWh9MECmw5IsFa4WFM1RMJ77UTw21u6PFc+z9kMj6L3VGYlYaMj3a/csBbF+J1v+QW4Dj6+113oaf7Ywvn5UTuOKlCPbhwWhjvsEvj920vDc9gd1CyNNCXbOMe6IHe2/LINGu+Z0qBHuiBjloFeqAH+tPQt4Ee6E9G3wV6oAe6Bzoj3KLaeKFXpT96Be+kzk+v8B2V2ek5vko0Oz3rfHpA+2Kcnt5lEz+S0NKzTYd94HkZdYjeY5fMbKRf8+6Y87OR3tWB8+awgZ7Owh6mz8UeonP7XEef53wP01Pezxx6ilr0DdkjbmvB49h0fjY88/PCFvcvCT2MOYgztQY9h74BjD8n8yGAyRIAAAAASUVORK5CYII=" alt=""></p></p>
+        </div>
+        <div class="container">
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-dark" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Mark</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Button</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    </div>
+    <div class="modal" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="MarkInput">Mark</label>
+                            <input type="email" class="form-control" id="MarkInput" aria-describedby="emailHelp"
+                                placeholder="Enter Mark">
+                        </div>
+                        <div class="form-group">
+                            <label for="ImageURLInput">Image URL</label>
+                            <input type="password" class="form-control" id="ImageURL" placeholder="Enter Image URL">
+                        </div>
+                        <div class="form-group">
+                            <label for="PriceInput">Price</label>
+                            <input type="password" class="form-control" id="PriceInput" placeholder="Enter Price">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button id="add_comp" type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="/Final/Js/script1.js"></script>
+</body>
+
+</html>
