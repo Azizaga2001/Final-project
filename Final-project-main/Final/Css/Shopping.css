@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar,
+.navbar-collapse {
+    flex-direction: column;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+}
+
+.navbar {
+    width: 28%;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+.navbar-brand {
+    margin-left: 0.5em;
+    padding-bottom: 0;
+    border-bottom: 4px solid #464646;
+}
+
+form input {
+    margin-bottom: 0.7em;
+}
+
+.Card{
+    width: 150px;
+    height: 270px;
+    background: #959595;
+    border-radius: 20px;
+    margin-left: 10px;
+    float: inline-end;
+}
+
+.img{
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+p{
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-left: 20px;
+}
+
+.img1 {
+    width: 10000000000000000vh;
+    height: 300px;
+    border-radius: 20px;
+    background: url(/Final/img/bg/paper.gif);
+    margin-left: 20px;
+}
+
